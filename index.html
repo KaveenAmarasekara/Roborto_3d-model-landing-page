@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roborto - 3D Modeled Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="gradient.png" alt="Roboto" class="bg-image">
+    <div class="overlay"></div>
+    <div class="container">
+        <header class="header">
+            <div class="logo">Roboto</div>
+            <nav>
+
+                <a href="index.html">Home</a>
+                <a href="#">Docs</a>
+                <a href="#">Pricing</a>
+                <a href="#">Contact Us</a>
+
+            </nav>
+            <button class="sign-in">SIGN IN</button>
+        </header>
+        <div class="content">
+            <main>
+                <div class="greeting">
+                    Say Hi &#128075;
+                </div>
+                <h1>Hello<br>Developers</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, Pariatur consectetur inventore dolore nobis
+                    officiis eveniet itaque quis!</p>
+
+                <div class="buttons">
+                    <button class="start">Get Started &gt</button>
+                    <button class="learn">Learn More</button>
+                </div>
+            </main>
+            <section class="robot-container">
+                <spline-viewer url="https://prod.spline.design/yEjwP8Ddo48SHsDu/scene.splinecode"></spline-viewer>
+            </section>
+        </div>
+        
+    </div>
+    <script class="robot" type="module" src="https://unpkg.com/@splinetool/viewer@1.10.12/build/spline-viewer.js"></script>
+</body>
+
+</html>
